@@ -93,7 +93,7 @@ public class Duration
 
     public static bool operator true(Duration d)
     {
-        return (d.Hours + d.Minutes + d.Seconds) > 0;
+        return (d.Hours + d.Minutes + d.Seconds) > 0; 
     }
 
     public static bool operator false(Duration d)
