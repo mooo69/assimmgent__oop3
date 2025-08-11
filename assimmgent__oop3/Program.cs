@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Duration
+public class Duration 
 {
     public int Hours { get; set; }
     public int Minutes { get; set; }
